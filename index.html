@@ -30,11 +30,11 @@
   /'___\ / __`\ /' __` __`\ /' __` __`\/\ \ /\ \/'\
  /\ \__//\ \L\ \/\ \/\ \/\ \/\ \/\ \/\ \ \ \\/&gt;  &lt;/
  \ \____\ \____/\ \_\ \_\ \_\ \_\ \_\ \_\ \_\/\_/\_\
-  \/____/\/___/  \/_/\/_/\/_/\/_/\/_/\/_/\/_/\//\/_/ { v0.2b }
+  \/____/\/___/  \/_/\/_/\/_/\/_/\/_/\/_/\/_/\//\/_/ { v0.24 }
 
 +--
 Automated All-in-One OS Command Injection and Exploitation Tool
-Copyright (c) 2015 Anastasios Stasinopoulos (@ancst)
+Copyright (c) 2014-2016 Anastasios Stasinopoulos (@ancst)
 +--
 </code></pre>
 
@@ -62,13 +62,14 @@ The tool is only for testing and academic purposes and can only be used where st
 Download commix by cloning the Git repository:
 <pre><code>git clone https://github.com/stasinopoulos/commix.git commix</code></pre>
 
-Commix comes packaged on the official repositories of the following Linux distributions, so you can use the package manager to install it!
+Commix comes packaged on the <strong>official repositories</strong> of the following Linux distributions, so you can use the <strong>package manager</strong> to install it!
 <ul>
 <li><a href="https://archassault.org/" target="_blank">ArchAssault</a></li>
 <li><a href="http://blackarch.org/" target="_blank">BlackArch</a></li>
+<li><a href="https://www.kali.org/" target="_blank">Kali Linux</a></li>
 </ul>
 
-Commix also comes pre-installed, on the following penetration testing frameworks:
+Commix also comes <strong>pre-installed</strong>, on the following penetration testing frameworks:
 <ul>
 <li><a href="https://github.com/trustedsec/ptf" target="_blank">The Penetration Testers Framework (PTF)</a></li>
 <li><a href="https://pentestbox.com/" target="_blank">PentestBox</a></li>
@@ -99,37 +100,11 @@ Do you want to increase the capabilities of the commix tool and/or to adapt it t
 
 <h2>
 <a id="command-injection-testbeds" class="anchor" href="#command-injection-testbeds" aria-hidden="true"><span class="octicon octicon-link"></span></a>Command Injection Testbeds</h2>
-A collection of pwnable VMs, that includes web apps vulnerable to command injections
-<ul>
-<li><a href="http://www.dvwa.co.uk" target="_blank">Damn Vulnerable Web App</a></li>
-<li><a href="https://github.com/s4n7h0/xvwa" target="_blank">Xtreme Vulnerable Web Application (XVWA)</a></li>
-<li><a href="https://www.owasp.org/index.php/Category:OWASP_Mutillidae" target="_blank">OWASP: Mutillidae</a></li>
-<li><a href="http://www.itsecgames.com/" target="_blank">bWAPP: bee-box (v1.6)</a></li>
-<li><a href="https://www.vulnhub.com/entry/persistence-1,103/" target="_blank">Persistence</a></li>
-<li><a href="https://www.vulnhub.com/entry/pentester-lab-web-for-pentester,71/" target="_blank">Pentester Lab: Web For Pentester</a></li>
-<li><a href="https://www.vulnhub.com/entry/pentester-lab-cve-2014-6271-shellshock,104/" target="_blank">Pentester Lab: CVE-2014-6271/Shellshock</a></li>
-<li><a href="https://www.vulnhub.com/entry/command-injection-iso-1,81/" target="_blank">Pentester Academy: Command Injection ISO: 1</a></li>
-<li><a href="https://github.com/SpiderLabs/MCIR/tree/master/shellol" target="_blank">SpiderLabs: MCIR (ShelLOL)</a></li>
-<li><a href="https://www.vulnhub.com/entry/kioptrix-2014-5,62/" target="_blank">Kioptrix: 2014 (#5)</a></li>
-<li><a href="https://www.vulnhub.com/entry/acid-server-1,125/" target="_blank">Acid Server: 1</a></li>
-<li><a href="https://github.com/andresriancho/w3af-moth/" target="_blank">w3af-moth</a></li>
-<li><a href="https://github.com/stasinopoulos/commix-testbed" target="_blank">commix-testbed</a></li>
-</ul>
+Do you want to test or evaluate the exploitation abilities of commix? Cool! Check the '<a href="https://github.com/stasinopoulos/commix/wiki/Exploitation-Demos" target="_blank">command injection testbeds</a>' wiki page which includes a collection of pwnable web applications and/or VMs (that includes web applications) vulnerable to command injection attacks.
 
 <h2>
 <a id="command-injection-testbeds" class="anchor" href="#command-injection-testbeds" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exploitation Demos</h2>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=PT4uSTCxKJU" target="_blank">Exploiting DVWA (1.0.8) command injection flaws.</a></li>
-<li><a href="https://www.youtube.com/watch?v=zqI8NcHfboo" target="_blank">Exploiting bWAPP command injection flaws (normal & blind).</a></li>
-<li><a href="https://www.youtube.com/watch?v=aVTGqiyVz5o" target="_blank">Exploiting 'Persistence' blind command injection flaw.</a></li>
-<li><a href="https://www.youtube.com/watch?v=5NvopJsCj4w" target="_blank">Exploiting shellshock command injection flaws.</a></li>
-<li><a href="https://www.youtube.com/watch?v=MdzGY2ws2zY" target="_blank">Upload a PHP shell (i.e. Metasploit PHP Meterpreter) on target host.</a></li>
-<li><a href="https://www.youtube.com/watch?v=cy7AW6OQBmU" target="_blank">Upload a Weevely PHP web shell on target host.</a></li>
-<li><a href="https://www.youtube.com/watch?v=ae4DOS-3vm8" target="_blank">Exploiting cookie-based command injection flaws via commix.</a></li>
-<li><a href="https://www.youtube.com/watch?v=g3hSFOFRJrc" target="_blank">Exploiting user-agent-based command injection flaws via commix.</a></li>
-<li><a href="https://www.youtube.com/watch?v=uMt9_jDaJUI" target="_blank">Exploiting referer-based command injection flaws via commix.</a></li>
-<li><a href="https://www.youtube.com/watch?v=Bq7xYRC2nI4" target="_blank">Rack cookies and commands injection.</a></li>
-</ul>
+If you want to see a collection of demos, about the exploitation abilities of commix, take a look at the '<a href="https://github.com/stasinopoulos/commix/wiki/Command-Injection-Testbeds" target="_blank">exploitation demos</a>' wiki page.
 
 <h2>
 <a id="bugs-and-enhancements" class="anchor" href="#bugs-and-enhancements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bugs and Enhancements</h2>
@@ -143,6 +118,11 @@ For bug reports or enhancements, please open an issue <a href="https://github.co
 <li>Windows (experimental)</li>
 </ul>
 
+<h2>
+<a id="supported-platforms" class="anchor" href="#pres-and-wp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Presentations and White Papers</h2>
+<a id="bugs-and-enhancements" class="anchor" href="#bugs-and-enhancements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bugs and Enhancements</h2>
+For presentations and white papers published in conferences, check the '<a href="https://github.com/stasinopoulos/commix/wiki/Presentations" target="_blank">presentations</a>' wiki page.
+
       </section>
       <br>
     </div>
@@ -150,7 +130,9 @@ For bug reports or enhancements, please open an issue <a href="https://github.co
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Made in Greece with <b>&hearts;</b> by <strong><a href="https://github.com/stasinopoulos">Anastasios Stasinopoulos</a>(<a href="https://twitter.com/ancst">@ancst</a></strong>)</a>
+        <p class="copyright">Made in Greece with <font size="2" color="red"><b>&hearts;</b> </font>by <strong><a href="https://github.com/stasinopoulos">Anastasios Stasinopoulos</a>(<a href="https://twitter.com/ancst">@ancst</a></strong>)
+        <ul>
+        </a>
       </footer>
     </div>
    
